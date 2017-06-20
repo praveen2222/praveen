@@ -59,3 +59,8 @@
   <artifactId>allure-junit-adaptor</artifactId>
   <version>${allure.version}</version>
 </dependency>
+
+@Test
+public void firstSimpleTest() {
+    assertTrue("Result not equals to 4", 2 * 2 == 4);
+}
